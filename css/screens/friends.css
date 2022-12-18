@@ -3,9 +3,29 @@
     text-align: center;
     display: block;
     background-color: #fafafa;
-    padding: 12px;
+    padding: 15px 0;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top:-10px;
 }
 
 #friends-display-link i{
     color: rgba(0,0,0,0.3)
+}
+
+.friends-screen{
+    padding: var(--horizontal-space);
+}
+
+.friends-screen__channel{
+    margin-top: 24px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding-top: 16px;
+}
+
+.friends-screen__channel-header{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.5);
 }

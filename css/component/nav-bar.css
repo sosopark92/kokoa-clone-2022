@@ -34,14 +34,3 @@
     bottom: 15px;
 }
 
-.nav__alarm{   
-    background-color: tomato;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 32px;
-}

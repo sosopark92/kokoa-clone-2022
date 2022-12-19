@@ -20,17 +20,15 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    font-weight: 600;
     position: absolute;
     left: 16px;
     bottom: 15px;
 }
 
+.nav__alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 32px;
+}

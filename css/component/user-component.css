@@ -8,6 +8,7 @@
 .user-component__column:first-child {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .user-component__avatar{
@@ -53,4 +54,11 @@
 .user-component__time{
     display:block;
     margin-bottom:10px;
+}
+
+.user-component__alert i{
+    color: tomato;
+    position: absolute;
+    top: 44px;
+    left: 240px;
 }

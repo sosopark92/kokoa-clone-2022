@@ -1,10 +1,4 @@
-.find-icons__icon i{
-    font-size: 32px;
-}
 
-.find-icons__icon span{
-    margin-top: 16px;
-}
 .recommended-friends{
     border-top: var(--main-border);
     border-bottom: var(--main-border);
@@ -96,7 +90,7 @@
     border-radius: 24px;
     align-items: center;
     position: absolute;
-    bottom: 36px;
+    bottom: -170px;
     right: 32px;
     font-size: 14px;
 }

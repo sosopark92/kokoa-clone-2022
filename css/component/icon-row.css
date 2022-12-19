@@ -1,24 +1,18 @@
-.icon-row{
+.icon-row {
     display: flex;
-    justify-content:flex-start;
-    flex-wrap:wrap;
-}
-
-.icon-row__icon{
+    justify-content: space-between;
+  }
+  
+  .icon-row__icon {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 25%;
-    height: 96px;
-}
-
-.icon-row__icon i{
-    font-size: 32px;
-}
-
-.icon-row__icon span{
-    margin-top: 16px;
-    text-align: center;
-}
-
+  }
+  
+  .icon-row__icon i {
+    font-size: 35px;
+  }
+  
+  .icon-row__icon span {
+    margin-top: 18px;
+  }

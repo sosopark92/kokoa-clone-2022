@@ -3,11 +3,9 @@
   <head>
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - KokoaClone</title>
+    <title>Find - Kokoa Clone</title>
   </head>
-
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
@@ -28,10 +26,7 @@
       <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
-        <span class="screen-header__alert"></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
@@ -39,7 +34,7 @@
       <div class="icon-row">
         <div class="icon-row__icon">
           <i class="fas fa-qrcode"></i>
-          <span>OR Code</span>
+          <span>QR Code</span>
         </div>
         <div class="icon-row__icon">
           <i class="far fa-address-book"></i>
@@ -51,101 +46,72 @@
         </div>
         <div class="icon-row__icon">
           <i class="far fa-envelope"></i>
-          <span>Invivte</span>
+          <span>Invite</span>
         </div>
       </div>
-
       <div class="recommended-friends">
-        <h3 class="recommended-friends__title">Recommended-friends</h3>
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
         <span>You have no recommended friends.</span>
       </div>
-
-      <div class="open-chat"></div>
-      <div class="open-chat__header">
-        <h4>Open Chat</h4>
-        <span
-          >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
-        ></span>
-      </div>
-
-      <div class="open-post post1">
-        <div class="open-post__column">
-          <h5 class="open-post__title">#BTS</h5>
-          <h6 class="open-post__hashtags">#bts#army#friends</h6>
-          <div class="open-post__members">
-            <img
-              src="https://w.namu.la/s/6eb1c248bfe3e65e379895405895de473e87d8c68c8185b564be5d4f305aa3f5674de1fb2559d07988a48105185fd4481dc9f9d948282123cc8f05b563f0f210efcede139ce8f5635c8f7f9cb0e443e88e975dac64583018f6ff0fbdb6f8d053aa1b1c279821021ecc83a9c634209861"
-            />
-            <span class="open-post__members-count">802 Members</span>
-            <div class="divider"></div>
-            <span class="open-post__members-status">Active</span>
-          </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+          </span>
         </div>
-
-        <div class="open-post__column">
-          <div class="open-post__photo">
-            <img
-              src="https://st1.bollywoodlife.com/wp-content/uploads/2022/03/BTS.jpg"
-            />
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <div class="open-post__members">
+              <img src="https://avatars3.githubusercontent.com/u/3612017" />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
           </div>
-          <div class="open-poast__heart-count">
-            <i class="fas fa-heart fa-xs"></i><span>326</span>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://avatars3.githubusercontent.com/u/3612017" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>326</span>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="open-post post2">
-        <div class="open-post__column">
-          <h5 class="open-post__title">#BTS</h5>
-          <h6 class="open-post__hashtags">#bts#army#friends</h6>
-          <div class="open-post__members">
-            <img
-              src="https://w.namu.la/s/6eb1c248bfe3e65e379895405895de473e87d8c68c8185b564be5d4f305aa3f5674de1fb2559d07988a48105185fd4481dc9f9d948282123cc8f05b563f0f210efcede139ce8f5635c8f7f9cb0e443e88e975dac64583018f6ff0fbdb6f8d053aa1b1c279821021ecc83a9c634209861"
-            />
-            <span class="open-post__members-count">802 Members</span>
-            <div class="divider"></div>
-            <span class="open-post__members-status">Active</span>
-          </div>
-        </div>
-
-        <div class="open-post__column">
-          <div class="open-post__photo">
-            <img
-              src="https://st1.bollywoodlife.com/wp-content/uploads/2022/03/BTS.jpg"
-            />
-          </div>
-          <!-- <div class="open-poast__heart-count">
-            <i class="fas fa-heart fa-xs"></i><span>326</span>
-          </div> -->
         </div>
       </div>
     </main>
 
     <nav class="nav">
       <ul class="nav__list">
-        <li clss="nav__btn">
+        <li class="nav__btn">
           <a class="nav__link" href="friends.html"
             ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
-        <li clss="nav__btn">
+        <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i
-          ></a>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
         </li>
-        <li clss="nav__btn">
+        <li class="nav__btn">
           <a class="nav__link" href="find.html"
             ><i class="fas fa-search fa-2x"></i
           ></a>
         </li>
-        <li clss="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__alert dot"></span>
-            <i class="fas fa-ellipsis-h fa-2x"></i>
-          </a>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
         </li>
       </ul>
     </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
